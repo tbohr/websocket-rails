@@ -19,9 +19,6 @@ gem "guard-rspec"
 gem "guard-coffeescript"
 gem "rb-fsevent"
 
-platforms :jruby do
-  gem 'activerecord-jdbcsqlite3-adapter', :require => 'jdbc-sqlite3', :require => 'arjdbc'
-end
-platforms :ruby do
-  gem 'sqlite3'
-end
+# platforms :ruby do
+#   gem 'sqlite3'
+# end
