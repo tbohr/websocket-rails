@@ -74,7 +74,7 @@ GEM
     erubi (1.12.0)
     eventmachine (1.2.7)
     execjs (2.8.1)
-    faye-websocket (0.11.3)
+    faye-websocket (0.10.0)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
     ffi (1.12.2)
@@ -236,7 +236,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   eventmachine
-  faye-websocket
+  faye-websocket (= 0.10.0)
   guard
   guard-coffeescript
   guard-rspec
